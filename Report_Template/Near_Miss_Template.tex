@@ -1,0 +1,335 @@
+\documentclass[12pt,oneside]{book}
+\input{commoncommands}
+
+% Rename chapter headings
+\renewcommand{\chaptername}{}
+\renewcommand{\bibname}{References}
+
+\pagestyle{fancy}
+\lhead{}
+\rhead{}
+\chead{}
+\renewcommand{\headrulewidth}{0pt}
+
+\newcommand{\forceindent}{\leavevmode{\parindent=1em\indent}}
+
+% COMMENT TO REMOVE WATERMARK
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{1}
+
+\usepackage{mhchem}
+\usepackage{setspace}
+\usepackage{subcaption}
+\usepackage{scrextend}
+
+\begin{document}
+\pagenumbering{gobble}
+\bibliographystyle{unsrt}
+	
+\begin{minipage}[t][9in][s]{6.25in}
+
+\headerB{
+Four Firefighters Injured\\
+In Lithium-Ion Battery Energy\\
+Storage System Explosion - Arizona\\ 
+}
+
+\normalsize
+\headerC{
+	\flushleft{
+	Mark B. McKinnon \\
+	Sean DeCrane \\
+	Stephen Kerber \\
+	\vspace{0.2in}
+	UL Firefighter Safety Research Institute \\
+	Columbia, MD 20145 \\
+	\vspace*{2\baselineskip}
+	} 
+
+	\vfill
+
+	\flushright{
+	\includegraphics[width=2.0in]{FSRI_GraphicShield} \\ [.3in]
+	}
+}
+
+\footnotesize
+\flushright{\textcopyright Underwriters Laboratories Inc. All rights reserved. UL and the UL logo are trademarks of UL LLC}
+\end{minipage}
+
+\newpage
+\hspace{5in}
+\newpage
+
+\begin{minipage}[t][9in][s]{6.25in}
+\pagenumbering{gobble}
+
+\headerB{
+Four Firefighters Injured \\
+In Lithium-Ion Battery Energy\\
+Storage System Explosion - Arizona\\ 
+}
+
+\headerC{
+	\flushleft{
+	Mark B. McKinnon \\
+	Sean DeCrane \\
+	Stephen Kerber \\
+	\vspace{0.2in}
+	{UL Firefighter Safety Research Institute \\
+	Columbia, MD 21045\\}
+	}
+
+	\flushleft{\today \\}
+}
+
+\vfill
+
+\flushright{\includegraphics[width=2in]{FSRI_GraphicShield}}
+
+\titlesigs
+
+\footnotesize
+\flushright{\textcopyright Underwriters Laboratories Inc. All rights reserved. UL and the UL logo are trademarks of UL LLC}
+\end{minipage}
+
+\newpage
+
+\begin{minipage}[t][9in][s]{6.25in}
+
+\flushleft{In no event shall UL be responsible to anyone for whatever use or non-use is made of the information contained in this Report and in no event shall UL, its employees, or its agents incur any obligation or liability for damages including, but not limited to, consequential damage arising out of or in connection  with the use or inability to use the information contained in this Report. Information conveyed by this Report applies only to the specimens actually involved in these tests. UL has not established a factory Follow-Up Service Program to determine the conformance of subsequently produced material, nor has any provision been made to apply any registered mark of UL to such material. The issuance of this Report in no way implies Listing, Classification or Recognition by UL and does not authorize the use of UL Listing, Classification or Recognition Marks or other reference to UL on or in connection with the product or system.
+}
+
+\vspace{3in}
+\vfill
+\hspace{1in}
+
+\end{minipage}
+
+\newpage
+
+\frontmatter
+
+\pagestyle{plain}
+\pagenumbering{roman}
+
+\begin{spacing}{0.9}
+\cleardoublepage
+\phantomsection
+\tableofcontents
+\end{spacing}
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+
+%\cleardoublepage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{List of Tables}
+%\listoftables
+
+\chapter{List of Abbreviations}
+
+\begin{tabbing}
+\hspace{1.5in} \= \\
+UL 	    \> Underwriters Laboratories \\
+UL FSRI \> UL Firefighter Safety Research Institute \\
+AC \> Alternating Current \\
+AHJ \> Authority Having Jurisdiction \\
+ALS \> Advanced Life Support \\
+BMS \> Battery Management System \\
+DC \> Direct Current \\
+EMS \> Emergency Medical Services \\
+ESMS \> Energy Storage Management System \\
+ESS \> Energy Storage System \\
+EV \> Electric Vehicle \\
+HAZMAT \> Hazardous Materials \\
+HVAC \> Heating Ventilation \& Air Conditioning \\
+IAP \> Incident Action Plan \\
+IFC \> International Fire Code \\
+ISO \> Insurance Services Office \\
+JPR \> Job Performance Requirement \\
+LEL \> Lower Explosive Limit \\
+NFPA \> National Fire Protection Association \\
+OSHA \> Occupational Safety and Health Administration \\
+PASS \> Personal Alert Safety System \\
+PPE \> Personal Protective Equipment \\
+SCBA \> Self Contained Breathing Apparatus \\
+SDS \> Safety Data Sheet \\
+SME \> Subject Matter Expert \\
+SOC \> State of Charge \\
+TIC \> Thermal Imaging Camera \\
+UEL \> Upper Explosive Limit \\
+VESDA \> Very Early Smoke Detection Apparatus \\
+WMD \> Weapons of Mass Destruction \\
+
+\end{tabbing}
+
+\mainmatter
+
+% \chapter*{Acknowledgments}
+% \pagenumbering{gobble}
+%
+% \begin{table}[!ht]
+% 	\centering
+% 	\caption*{Generic Table}
+% 	\begin{tabular}{ll}
+% 		\toprule[1.5pt]
+% 		Name & Awesomeness \\ 
+% 		\midrule
+% 		Neil Armstrong		 & First person to walk on the moon \\
+% 		Edith Clarke		 & First female ECE professor \\
+% 		John Goodenough		 & Rechargeable Lithium-Ion battery \\
+%		Nikola Telsa		 & Modern alternating current \\  
+%		\bottomrule[1.25pt]
+% 	\end{tabular}
+% \end{table}
+
+
+\newpage
+\chapter{Executive Summary}
+\label{chap:executive_summary}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+\section{Contributing Factors}
+
+
+\section{Key Recommendations}
+
+
+\chapter{Introduction}
+\label{chap:intro}
+
+
+\chapter{Fire Department Overview}
+\label{chap:fd_overview}
+
+
+\section{Surprise Fire-Medical Department}
+
+
+\section{Peoria Fire-Medical Department} 
+
+
+\section{Automatic Aid}
+\label{chap:mutual_aid}
+
+
+\section{Training and Experience}
+\label{chap:training_experience}
+
+
+\section{Equipment and Personnel}
+\label{chap:equip_personnel}
+
+
+\section{Contributing Factors}
+\label{chap:equip_personnel}
+
+
+\chapter{Incident Overview}
+
+
+\section{Weather}
+\label{chap:weather}
+
+
+\section{Building Construction}
+\label{chap:building_construction}
+
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=.85\columnwidth]{../06_Figures/aerial_view}
+	\caption[Aerial Photo of LIB ESS]{Aerial Photo of Lithium-Ion Battery Energy Storage System Site with ESS Facility Outlined in Red. (Modified from \cite{google_maps})}
+	\label{fig:aerial_photo}
+\end{figure}
+
+
+\section{Energy Storage System}
+\label{chap:ess_system}
+
+
+\section{PPE}
+\label{chap:ppe}
+
+
+\section{Timeline}
+\label{chap:timeline}
+
+
+\section{Detailed Incident Narrative}
+\label{chap:narrative}
+
+
+\section{Analysis}
+\label{chap:analysis}
+
+
+\section{Contributing Factors}
+\label{sec:incident_contrib_factors}
+
+
+\chapter{Description of Injuries}
+\label{chap:injuries}
+
+
+\chapter{Contributing Factors}
+\label{chap:contrib_factors}
+
+
+\chapter{Recommendations}
+\label{chap:recommendations}
+
+
+\chapter{Decommissioning the ESS}
+\label{chap:decommissioning}
+
+
+\bibliography{AZ_Report}
+
+
+\clearpage
+
+
+\appendix
+\titleformat{\chapter}[display]
+  {\centering\normalfont\huge\bfseries}
+  {\chaptertitlename\ \thechapter}
+  {8pt}
+  {\large}
+\captionsetup{list=no}
+\chapter{Ignition of Gases Produced During Thermal Runaway}
+\label{chap:appendix_a}
+
+
+\begin{table}[!ht]
+	\centering
+	\caption[Minimum ignition energy for hydrogen and common hydrocarbons]{Minimum Ignition Energy and Auto-Ignition Temperatures for Hydrogen, Carbon monoxide, and Common Hydrocarbons (Adapted from \cite{ignition_handbook})}
+	\begin{tabular}{|c||c|c|}
+		\hline
+		Substance	& Energy (mJ) 	& Auto-ignition Temperature in Air ($^{\circ}$F)\\ \hline \hline
+		Hydrogen		 	& 0.03	& 970 	\\ \hline
+		Carbon monoxide	 	& 0.3~\cite{ILO:2017}	& 1130 	\\ \hline
+		Acetylene  			& 0.03	& 580 	\\ \hline
+		Butane  			& 0.26	& 760	\\ \hline
+		Cyclohexane  		& 2.65	& 475 	\\ \hline
+		Ethane  			& 0.42	& 960 	\\ \hline
+		Ethylene		  	& 0.11	& 915 	\\ \hline
+		Heptane  			& 1.15	& 435 	\\ \hline
+		Hexane  			& 0.29	& 435 	\\ \hline
+		Methane			  	& 0.71	& 1005 	\\ \hline
+		Pentane  			& 0.82	& 500 	\\ \hline
+		Propane  			& 0.5	& 840 	\\ \hline
+		Propylene		  	& 0.42	& 860 	\\ \hline
+		p-Xylene  			& 0.2	& 985 	\\ \hline
+	\end{tabular}
+\label{tab:ignition_energy}
+\end{table}
+
+
+\end{document}
